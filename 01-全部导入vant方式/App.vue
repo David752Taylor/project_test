@@ -5,7 +5,6 @@
     <van-button type="info">信息按钮</van-button>
     <van-button type="default">默认按钮</van-button>
     <van-switch v-model="checked" />
-    <van-rate v-model="value" />
   </div>
 </template>
 
@@ -13,7 +12,6 @@
 export default {
   data () {
     return {
-      value: 3,
       checked: true
     }
   }
